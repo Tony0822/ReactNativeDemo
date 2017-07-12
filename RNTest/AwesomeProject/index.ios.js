@@ -10,6 +10,7 @@ import {
   StyleSheet,
   Text,
   View
+	
 } from 'react-native';
 
 export default class AwesomeProject extends Component {

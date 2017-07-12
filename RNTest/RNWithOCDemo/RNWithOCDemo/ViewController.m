@@ -19,7 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    //添加button
     [self.view addSubview:self.btn];
 
 }
