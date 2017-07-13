@@ -15,6 +15,7 @@
 		0F307EA81F164FD2000364EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F307EA61F164FD2000364EC /* LaunchScreen.storyboard */; };
 		0F307EB31F164FD2000364EC /* RNWithOCDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F307EB21F164FD2000364EC /* RNWithOCDemoTests.m */; };
 		0F307EBE1F164FD2000364EC /* RNWithOCDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F307EBD1F164FD2000364EC /* RNWithOCDemoUITests.m */; };
+		0F4936AE1F17A1B9009E4079 /* ReactView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4936AD1F17A1B9009E4079 /* ReactView.m */; };
 		1BD7C3546198A38CC0CB6CC9 /* libPods-RNWithOCDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C2F4DA0DDA895EC3FC133FA /* libPods-RNWithOCDemoTests.a */; };
 		6E7E128C16E78DF9981CC7CD /* libPods-RNWithOCDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 931278C51A59D2E2994AD17B /* libPods-RNWithOCDemoUITests.a */; };
 		F089736CCA5860DEB048152D /* libPods-RNWithOCDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25585DAC5887AC986DA15DDE /* libPods-RNWithOCDemo.a */; };
@@ -55,6 +56,8 @@
 		0F307EB91F164FD2000364EC /* RNWithOCDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNWithOCDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F307EBD1F164FD2000364EC /* RNWithOCDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNWithOCDemoUITests.m; sourceTree = "<group>"; };
 		0F307EBF1F164FD2000364EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F4936AC1F17A1B9009E4079 /* ReactView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactView.h; sourceTree = "<group>"; };
+		0F4936AD1F17A1B9009E4079 /* ReactView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactView.m; sourceTree = "<group>"; };
 		1F39510E06C3AF2DEB52A2EC /* Pods-RNWithOCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNWithOCDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNWithOCDemo/Pods-RNWithOCDemo.release.xcconfig"; sourceTree = "<group>"; };
 		25585DAC5887AC986DA15DDE /* libPods-RNWithOCDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNWithOCDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39710787FF7E53F2C4FE01E1 /* Pods-RNWithOCDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNWithOCDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNWithOCDemoTests/Pods-RNWithOCDemoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +125,8 @@
 				0F307E9C1F164FD2000364EC /* AppDelegate.m */,
 				0F307E9E1F164FD2000364EC /* ViewController.h */,
 				0F307E9F1F164FD2000364EC /* ViewController.m */,
+				0F4936AC1F17A1B9009E4079 /* ReactView.h */,
+				0F4936AD1F17A1B9009E4079 /* ReactView.m */,
 				0F307EA11F164FD2000364EC /* Main.storyboard */,
 				0F307EA41F164FD2000364EC /* Assets.xcassets */,
 				0F307EA61F164FD2000364EC /* LaunchScreen.storyboard */,
@@ -463,6 +468,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F4936AE1F17A1B9009E4079 /* ReactView.m in Sources */,
 				0F307EA01F164FD2000364EC /* ViewController.m in Sources */,
 				0F307E9D1F164FD2000364EC /* AppDelegate.m in Sources */,
 				0F307E9A1F164FD2000364EC /* main.m in Sources */,
@@ -711,6 +717,7 @@
 				0F307EC41F164FD2000364EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F307EC51F164FD2000364EC /* Build configuration list for PBXNativeTarget "RNWithOCDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -719,6 +726,7 @@
 				0F307EC71F164FD2000364EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F307EC81F164FD2000364EC /* Build configuration list for PBXNativeTarget "RNWithOCDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -727,6 +735,7 @@
 				0F307ECA1F164FD2000364EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
